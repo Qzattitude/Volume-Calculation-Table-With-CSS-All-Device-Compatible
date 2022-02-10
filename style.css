@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    color: steelblue;
+    line-height: 1.6;
+    font-family: 'lato';
+    padding: 1em;
+}
+.form1{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+ul{
+    list-style: none;
+}
+
+th, td {
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+  }
+
+.cadr-info{
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+.cadr-info > *{
+    padding: 1em;
+}
+.form1{
+    background: #fff;
+}
+.form1{
+    text-align: center;
+}
+.cadr-info h3, .form1 h1{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.cadr-info{
+    background: #f9feff;
+}
+.cadr-info form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+table, td{
+    border: grey;
+    border-width: 1px;
+
+}
+.cadr-table{
+    border: grey;
+    border-width: 1px;
+}
+.tablecontent{
+    font-size: 16px;
+    font-family: "lato";
+    padding: 40px 40px 40px 40px;
+
+}
+.cadr-info form label{
+    display: block;
+}
+.cadr-info form p{
+    margin: 0;
+}
+.cadr-info form button, .cadr-info input, .cadr-info textarea{
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+.cadr-info form button{
+    background: cyan;
+    border: 0;
+    text-transform: uppercase;
+}
+.cadr-info form button:hover,.cadr-info form button:focus{
+    background-color:  skyblue;
+    color: #f9feff;
+    outline: 0;
+    transition: background-color .5s ease-out;
+}
+@media(min-width:700px){
+    .form1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .form1 > *{
+        padding: 2em;
+    }
+}
